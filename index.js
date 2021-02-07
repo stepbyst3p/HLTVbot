@@ -1,7 +1,7 @@
 var TelegramBot = require('node-telegram-bot-api');
 var cheerio = require('cheerio');
 var request = require('request');
-var token = '255880512:AAHo9Na2lm5FEdRdn18ULhi5C_YViriUlmM';
+var token = <insert bot token>;
 var bot = new TelegramBot(token, {
   polling: true
 });
